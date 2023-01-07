@@ -9,7 +9,7 @@ const getData = async (url, options = {}) => {
     // newURL = `http://localhost:8080${url}`;
     console.log('products');
   } else if (url.includes('reviews')) {
-    // newURL = `http://localhost:8080${url}`;
+    newURL = `http://54.218.116.41:8000${url}`;
     console.log('reviews');
   }
   try {
@@ -37,7 +37,7 @@ const postData = async (url, options) => {
     // newURL = `http://localhost:8080${url}`;
     console.log('products');
   } else if (url.includes('reviews')) {
-    // newURL = `http://localhost:8080${url}`;
+    newURL = `http://54.218.116.41:8000${url}`;
     console.log('reviews');
   }
   try {
@@ -65,7 +65,7 @@ const patchData = async (url, options) => {
     // newURL = `http://localhost:8080${url}`;
     console.log('products');
   } else if (url.includes('reviews')) {
-    // newURL = `http://localhost:8080${url}`;
+    newURL = `http://54.218.116.41:8000${url}`;
     console.log('reviews');
   }
   try {
@@ -93,7 +93,7 @@ const putData = async (url, options) => {
     // newURL = `http://localhost:8080${url}`;
     console.log('products');
   } else if (url.includes('reviews')) {
-    // newURL = `http://localhost:8080${url}`;
+    newURL = `http://54.218.116.41:8000${url}`;
     console.log('reviews');
   }
   try {
